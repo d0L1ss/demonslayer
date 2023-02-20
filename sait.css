@@ -1,0 +1,88 @@
+@import url('http://fonts.cdnfonts.com/css/gang-of-three');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+main {
+  width: 1000px;
+  box-sizing: border-box;
+  margin: auto;
+}
+.header {
+  background-color: rgb(0, 92, 84);
+  color: white;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 15px;
+}
+.header_content {
+  color: white;
+  font-family: 'Gang of Three', sans-serif;
+  font-size: 45px;
+}
+.content {
+  display: flex;
+  width: 1000px;
+  margin-top: 20px;
+}
+.block_left {
+  background: linear-gradient(180deg, rgb(0, 84, 77) 26%, rgb(242, 128, 0), rgb(82, 77, 71));;
+  padding: 30px;
+  font-size: 19px;
+  color: white;
+  height: 1600px;
+  width: 800px;
+  padding-top: 0px;
+  font-family: 'Comfortaa', cursive;
+}
+.block_right {
+  background: linear-gradient(180deg, rgb(0, 84, 77) 26%, rgb(242, 128, 0), rgb(82, 77, 71));;
+  color: white;
+  padding: 60px;
+  font-size: 35px;
+  margin-left: 30px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+.img_blocks {
+  margin-top: 2px;
+}
+img {
+  width: 550px;
+  height: 320px;
+  padding: 5px;
+}
+footer {
+  background-color: rgb(74, 77, 71);
+  height: 115px;
+  font-size: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+
+.vk {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.tg {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.inst {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.tittle {
+  margin-top: 10px;
+}
